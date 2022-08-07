@@ -8,5 +8,5 @@ setup(
     author_email="chris.t.fernando@gmail.com",
     url="https://github.com/chris-t-fernando/notification-service",
     packages=["notification_service"],
-    install_requires=["slack_sdk", "pushover @ git+https://github.com/Wyattjoh/pushover.git#subdirectory=PythonAPI"],
+    install_requires=["slack_sdk", "pushover @ git+https://github.com/Wyattjoh/pushover#subdirectory=PythonAPI"],
 )
