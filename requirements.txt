@@ -1,0 +1,2 @@
+slack_sdk
+git+https://github.com/Wyattjoh/pushover
