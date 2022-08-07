@@ -3,7 +3,7 @@ import logging
 from pushover import Pushover
 
 # my modules
-from inotification_service import INotificationService
+from .inotification_service import INotificationService
 
 
 log = logging.getLogger(__name__)

@@ -4,7 +4,7 @@ from pushover import Pushover
 from slack_sdk import WebClient
 
 # my modules
-from inotification_service import INotificationService
+from .inotification_service import INotificationService
 
 
 log = logging.getLogger(
