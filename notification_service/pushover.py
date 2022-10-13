@@ -1,6 +1,6 @@
 # external packages
 import logging
-from pushover import Pushover
+from pushover import Pushover as po
 
 # my modules
 from .inotification_service import INotificationService
@@ -15,7 +15,7 @@ class Pushover(INotificationService):
         api_key: str,
         user_key: str,
     ):
-        self.client = Pushover(api_key)
+        self.client = po(api_key)
         self.client.user(user_key)
 
     def send(self, message: str, subject: str = None) -> bool:
