@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name="notification_service",
-    version="0.11",
+    version="0.12",
     description="Interface and concretes for sending notifications",
     author="Chris Fernando",
     author_email="chris.t.fernando@gmail.com",
